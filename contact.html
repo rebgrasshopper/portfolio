@@ -2,32 +2,38 @@
 <html lang=en>
     <head>
         <title>Plover Brown, Web Developer</title>
+        <link rel='stylesheet' type='text/css' href='./assets/css/style.css'>
     </head>
     <body>
         <div id='banner'>
-            <div>Plover Brown</div>
-            <ul id='navBar'>
-                <li><a href="index.html">About</a></li>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href='./contact.html'>Contact</a></li>
-            </ul>
+            <div id='subBanner'>
+                <div id='bannerName'><p>Plover Brown</p></div>
+                <ul id='navBar'>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="./portfolio.html">Portfolio</a></li>
+                    <li><a href='./contact.html'>Contact</a></li>
+                </ul>
+                <div class='clearFix'></div>
+            </div>
         </div>
-        <h1>Contact</h1>
-        <hr>
-        <div id='contact'>
-            <form action="./index.html" method="POST">
-                <label for='name'>Name</label><br>
-                <input type='text' id='name' name='name' value='John Smith'><br><br>
-                <label for='email'>Email</label><br>
-                <input type='text' id='email' name='email' value='example@gmail.com'><br><br>
-                <label for='message'>Message</label><br>
-                <textarea id='message' name='message' rows='10' cols='30'></textarea><br><br><br>
-                <input type='submit' value='Submit'>
-            </form>
+        <div id='main'>
+            <h1>Contact</h1>
+            <hr>
+            <div id='contact'>
+                <form action="./index.html" method="POST">
+                    <label for='name'>Name</label><br>
+                    <input type='text' id='name' name='name' value='John Smith'><br><br>
+                    <label for='email'>Email</label><br>
+                    <input type='text' id='email' name='email' value='example@gmail.com'><br><br>
+                    <label for='message'>Message</label><br>
+                    <textarea id='message' name='message' rows='10' cols='30'></textarea><br><br><br>
+                    <input type='submit' value='Submit'>
+                </form>
+            </div>
         </div>
-        <div id='footer'>
-            <div></div>
+        <footer id='footer'>
+            <div id='blueFooter'></div>
             <p>Copyright ©</p>
-        </div>
+        </footer>
     </body>
 </html>
