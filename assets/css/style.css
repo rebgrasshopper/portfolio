@@ -222,7 +222,6 @@ textarea {
 }
 
 .project {
-    background-image: url('./SDNJ.png');
     height: 210px;
     width: 280px;
     margin: 25px 15px 25px 25px;
@@ -230,7 +229,6 @@ textarea {
 }
 
 .project2 {
-    background-image: url('./SDNJ.png');
     height: 210px;
     width: 280px;
     margin: 25px 100px 25px 25px;
@@ -239,7 +237,6 @@ textarea {
 
 .row p {
     background-color: #4aaaa5;
-    color: #ffffff;
     width: 280px;
     margin-top: 145px;
     margin-left: 0px;
@@ -251,3 +248,29 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
+.row a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#p1 {
+    background-image: url('./SDNJ.png');
+}
+
+#p2 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p3 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p4 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p5 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
