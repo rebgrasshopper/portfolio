@@ -80,11 +80,7 @@ div {
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
-}
-
-#blueFooter {
-    height: 4px;
-    background-color: #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
 
 #footer p {
@@ -133,7 +129,7 @@ h2 {
 
 #main img {
     float: left;
-    height: 150px;
+    height: 140px;
     margin: 20px;
 }
 
@@ -193,4 +189,65 @@ textarea {
     margin-bottom: -25px;
     padding: 5px;
     color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PORTFOLIO.HTML */
+
+.row {
+ margin-left: 20px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.project {
+    background-image: url('./SDNJ.png');
+    height: 210px;
+    width: 280px;
+    margin: 25px 15px 25px 25px;
+    float: left;
+}
+
+.project2 {
+    background-image: url('./SDNJ.png');
+    height: 210px;
+    width: 280px;
+    margin: 25px 100px 25px 25px;
+    float: left;
+}
+
+.row p {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 280px;
+    margin-top: 145px;
+    margin-left: 0px;
+    height: 55px;
+    max-height: 55px;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
