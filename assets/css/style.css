@@ -72,10 +72,43 @@ div {
 
 
 
+/* Footer */
+
+#footer {
+    flex-shrink: 0;
+    background-color: #666666;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+#blueFooter {
+    height: 4px;
+    background-color: #4aaaa5;
+}
+
+#footer p {
+    text-align: center;
+    font-size: x-small;
+    padding-top: 25px;
+    margin-bottom: 0px;
+    color: #dddddd;
+}
 
 
 
-/* Main Body of Text */
+
+
+
+
+
+
+
+
+
+
+
+/* INDEX.HTML */
 
 #main {
     width: 960px;
@@ -85,7 +118,7 @@ div {
 }
 
 hr {
-    margin: 15px;
+    margin: 20px;
     border-style: solid;
     border-color: #dddddd;
 }
@@ -114,25 +147,50 @@ p {
 
 
 
-/* Footer */
 
-#footer {
-    flex-shrink: 0;
-    background-color: #666666;
-    margin-left: -8px;
-    margin-right: -8px;
-    margin-bottom: -8px;
+
+
+
+
+
+
+
+
+
+
+/* CONTACT.HTML */
+
+
+form {
+    text-align: left;
+    margin-left: 20px;
 }
 
-#blueFooter {
-    height: 4px;
+input {
+    width: 910px;
+    height: 25px;
+    padding-left: 5px;
+    margin-top: 3px;
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    color: #777777;
+}
+
+#submit {
+    height: 35px;
+    width: 100px;
     background-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
-#footer p {
-    text-align: center;
-    font-size: x-small;
-    padding-top: 25px;
-    margin-bottom: 0px;
-    color: #dddddd;
+textarea {
+    border-color: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 3px;
+    margin-bottom: -25px;
+    padding: 5px;
+    color: #777777;
 }
