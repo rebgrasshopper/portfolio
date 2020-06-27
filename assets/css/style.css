@@ -2,18 +2,16 @@ html {
     background-color: #dddddd;
     background-image: url(../images/strange_bullseyes/strange_bullseyes.png);
     text-align: center;
-    height: 100%;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
-    height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-div {
+div, section {
     background-color: #ffffff;
 }
 
@@ -72,10 +70,17 @@ div {
 
 
 
+
 /* Footer */
 
+
+#everythingButFooter {
+    background-color: transparent;
+    min-height: calc(100vh - 70px);
+}
+
 #footer {
-    flex-shrink: 0;
+    height: 50px;
     background-color: #666666;
     margin-left: -8px;
     margin-right: -8px;
@@ -111,12 +116,16 @@ div {
     margin: auto;
     flex: initial;
     margin-top: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
 }
 
 hr {
     margin: 20px;
     border-style: solid;
     border-color: #dddddd;
+    margin-bottom: 2px;
 }
 
 h2 {
@@ -255,7 +264,7 @@ textarea {
 }
 
 #p1 {
-    background-image: url('./SDNJ.png');
+    background-image: url('../images/SDNJ.png');
 }
 
 #p2 {
