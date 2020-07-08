@@ -1,8 +1,8 @@
 body{
     background-image: url(../images/strange_bullseyes/strange_bullseyes.png);
     margin: auto 0;
+    /* height: 100%; */
 }
-
 
 /*   NAVBAR   */
 
@@ -45,6 +45,13 @@ a {
 
 /*   FOOTER   */
 
-footer {
+#everythingButFooter {
+    min-height: calc(100vh - 70px);
+}
 
+footer {
+    height: 50px;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 18px;
 }
