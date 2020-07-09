@@ -11,11 +11,11 @@ h2 {
     margin-bottom: 0px;
 }
 
-
-
-
-
-
+.main {
+    margin: 15px;
+    background-color: #fff;
+    padding: 20px;
+}
 
 
 
@@ -60,25 +60,6 @@ a {
 
 
 
-
-/*   MAIN   */
-
-.main {
-    margin: 15px;
-    background-color: #fff;
-    padding: 20px;
-}
-
-#goLow /* index.html specific tag */ {
-    padding-top: 170px;
-}
-
-img {
-    padding-bottom: 10px;
-}
-
-
-
 /*   FOOTER   */
 
 #everythingButFooter {
@@ -105,30 +86,17 @@ footer {
 
 
 
+/*   ABOUT   */
 
 
-
-
-
-
-/*   CONTACT FORM   */
-
-.btn {
-    background-color: #4aaaa5;
-    border-radius: 0%;
-    color: #fff;
-    padding: 6px 20px 6px 20px;
+#goLow {
+    padding-top: 170px;
 }
 
-.form-item {
-    color: #777;
+#profile-pic {
+    padding-bottom: 10px;
 }
 
-.form-box {
-    width: 100%;
-    border: #777 1px solid;
-    padding: 3px;
-}
 
 
 
@@ -170,6 +138,47 @@ footer {
 #p5 {
     background-image: url('https://via.placeholder.com/280x210');
 }
+
+
+
+
+
+
+
+
+
+
+/*   CONTACT FORM   */
+
+.btn {
+    background-color: #4aaaa5;
+    border-radius: 0%;
+    color: #fff;
+    padding: 6px 20px 6px 20px;
+}
+
+.form-item {
+    color: #777;
+    margin-bottom: 3px;
+}
+
+.form-box {
+    width: 100%;
+    border: #777 1px solid;
+    padding: 3px;
+    margin-bottom: -3px;
+}
+
+
+
+
+
+
+
+
+
+
+/*   MEDIA QUERIES   */
 
 @media screen and (max-width: 767px) {
     nav {
