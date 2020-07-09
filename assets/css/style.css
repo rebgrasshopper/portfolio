@@ -108,16 +108,11 @@ footer {
 
 /*   PORTFOLIO   */
 
-.project {
-
-    margin: 25px 15px 25px 25px;
+.profile-card {
+    width: 280px;
+    height: 210px;
+    margin: 25px;
 }
-
-.project2 {
-
-    margin: 25px 100px 25px 25px;
-}
-
 
 #p1 {
     background-image: url('../images/SDNJ.png');
@@ -127,15 +122,15 @@ footer {
     background-image: url('https://via.placeholder.com/280x210');
 }
 
-#p3 {
-    background-image: url('https://via.placeholder.com/280x210');
-}
-
 #p4 {
     background-image: url('https://via.placeholder.com/280x210');
 }
 
 #p5 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p7 {
     background-image: url('https://via.placeholder.com/280x210');
 }
 
