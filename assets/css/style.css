@@ -2,7 +2,6 @@ body{
     background-image: url(../images/strange_bullseyes/strange_bullseyes.png);
     margin: auto 0;
     color: #777;
-    /* height: 100%; */
 }
 
 h2 {
@@ -12,12 +11,28 @@ h2 {
     margin-bottom: 0px;
 }
 
+
+
+
+
+
+
+
+
+
+
 /*   NAVBAR   */
 
-nav {
+.full-length {
+    background-color: #fff;
+    padding: 0px;
     border-bottom: #ccc solid 2px;
+}
+
+nav {
     padding: 0px !important;
     background-color: #fff;
+
 }
 
 .navbar-brand {
@@ -30,6 +45,11 @@ nav {
 
 nav li {
     margin: 8px;
+    border-right: #ccc solid 1px;
+}
+
+nav li:last-child {
+    border: none;
 }
 
 a {
@@ -53,8 +73,9 @@ a {
     padding-top: 170px;
 }
 
-
-
+img {
+    padding-bottom: 10px;
+}
 
 
 
@@ -129,16 +150,6 @@ footer {
     margin: 25px 100px 25px 25px;
 }
 
-.row p {
-    background-color: #4aaaa5;
-    text-align: center;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-}
-
-.row a {
-    text-decoration: none;
-    color: #ffffff;
-}
 
 #p1 {
     background-image: url('../images/SDNJ.png');
@@ -158,3 +169,10 @@ footer {
 
 #p5 {
     background-image: url('https://via.placeholder.com/280x210');
+}
+
+@media screen and (max-width: 767px) {
+    nav {
+        margin: 0 auto;
+    }
+}
