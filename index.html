@@ -4,12 +4,14 @@
 <head>
     <title>Plover Brown, Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel='stylesheet' type='text/css' href='./assets/css/style.css'>
 </head>
 
 <body>
     <div id='everythingButFooter'>
+        
         <nav class='navbar navbar-expand-lg'>
             <div class='container-fluid'>
                 <div class='navbar-header'>
@@ -25,30 +27,39 @@
 
 
         <section class='main'>
-            <h2>About Me</h2>
-            <hr>
-            <div id='about'>
-                <img src="./assets/images/43Me.jpg"
-                    alt='A head shot of Plover Brown, a smiling white adult with brown hair, wearing a beanie and dressed in blue layered clothing for cool weather.'>
-                <br><br><br><br>
-                <p id='firstP'>Hey! I'm Plover Brown.</p>
-                <p>I'm a web developer working out of San Diego. These clear blue skies with picturesque, fluffy clouds
-                    are great inspiration for sharp, clean coding! I recommend it.</p>
-                <div class='clearFix'></div>
-                <p>I've been working in Python on my own for the past year or so, but I'm always looking for something
-                    new to learn, so here I am studying full stack web development with UCSD Extensions! I come from an
-                    untraditional background, with a B.A. in studio art and sociology, so I've learned to keep my eyes
-                    and ears open for fresh and unusual opportunities. That's how I ended up coding while my four year
-                    old rampages around being a lightning-breathing dragon in the background.</p>
-                <p>Keep an eye out, because I'm going to be filling this portfolio up with work in no time.</p>
-            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>About Me</h2>
+                    </div>
+                </div>
+                <!--row-->
+                <hr>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="./assets/images/43Me.jpg"
+                            alt='A head shot of Plover Brown, a smiling white adult with brown hair, wearing a beanie and dressed in blue layered clothing for cool weather.'>
+                    </div>
+                    <div id='goLow' class="col-8">
+                        <p id='firstP'>Hey! I'm Plover Brown.</p>
+                        <p>I'm a web developer working out of San Diego. These clear blue skies with picturesque, fluffy clouds are great inspiration for sharp, clean coding! I recommend it.</p>
+                    </div>
+                </div>
+                <!--row-->
+                <div class="row">
+                    <div class="col-12">
+                        <p>I've been working in Python on my own for the past year or so, but I'm always looking for something new to learn, so here I am studying full stack web development with UCSD Extensions! I come from an untraditional background, with a B.A. in studio art and sociology, so I've learned to keep my eyes and ears open for fresh and unusual opportunities. That's how I ended up coding while my four year old rampages around being a lightning-breathing dragon in the background.</p>
+                        <p>Keep an eye out, because I'm going to be filling this portfolio up with work in no time.</p>
+                    </div>
+                </div><!--row-->
+            </div><!--container-->
         </section>
     </div>
 
     <footer id='footer' class='bg-dark text-white-50'>
         <p>Copyright ©</p>
     </footer>
-    
+
 </body>
 
 </html>

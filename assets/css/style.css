@@ -1,7 +1,15 @@
 body{
     background-image: url(../images/strange_bullseyes/strange_bullseyes.png);
     margin: auto 0;
+    color: #777;
     /* height: 100%; */
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 600;
+    margin-bottom: 0px;
 }
 
 /*   NAVBAR   */
@@ -31,6 +39,8 @@ a {
 
 
 
+
+
 /*   MAIN   */
 
 .main {
@@ -39,6 +49,11 @@ a {
     padding: 20px;
 }
 
+#goLow /* index.html specific tag */ {
+    padding-top: 170px;
+}
+
+
 
 
 
@@ -46,12 +61,100 @@ a {
 /*   FOOTER   */
 
 #everythingButFooter {
-    min-height: calc(100vh - 70px);
+    min-height: calc(100vh - 50px);
 }
 
 footer {
-    height: 50px;
+    height: 40px;
     font-size: 10px;
-    text-align: center;
-    padding-top: 18px;
+    padding-top: 10px;
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 6px #4aaaa5 solid;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   CONTACT FORM   */
+
+.btn {
+    background-color: #4aaaa5;
+    border-radius: 0%;
+    color: #fff;
+    padding: 6px 20px 6px 20px;
+}
+
+.form-item {
+    color: #777;
+}
+
+.form-box {
+    width: 100%;
+    border: #777 1px solid;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+/*   PORTFOLIO   */
+
+.project {
+
+    margin: 25px 15px 25px 25px;
+}
+
+.project2 {
+
+    margin: 25px 100px 25px 25px;
+}
+
+.row p {
+    background-color: #4aaaa5;
+    text-align: center;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.row a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#p1 {
+    background-image: url('../images/SDNJ.png');
+}
+
+#p2 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p3 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p4 {
+    background-image: url('https://via.placeholder.com/280x210');
+}
+
+#p5 {
+    background-image: url('https://via.placeholder.com/280x210');
