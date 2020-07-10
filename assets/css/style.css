@@ -108,10 +108,26 @@ footer {
 
 /*   PORTFOLIO   */
 
-.profile-card {
+.card {
     width: 280px;
-    height: 210px;
-    margin: 25px;
+    margin: 10px;
+    max-width: 380px;
+}
+
+.card-img-overlay {
+    padding: 0px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    background-color: #4aaaa5;
+    width: 500px;
+    padding: 10px;
+    margin: 0px;
+}
+
+#portfolio-deck {
+    column-count: 2;
 }
 
 #p1 {
@@ -178,5 +194,9 @@ footer {
 @media screen and (max-width: 767px) {
     nav {
         margin: 0 auto;
+    }
+
+    #portfolio-deck {
+        column-count: 1;
     }
 }
