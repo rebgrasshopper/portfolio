@@ -194,6 +194,11 @@ footer {
 /*   MEDIA QUERIES   */
 
 @media screen and (max-width: 767px) {
+
+    .main {
+        margin: 0px !important;
+    }
+
     nav {
         margin: 0 auto;
     }
