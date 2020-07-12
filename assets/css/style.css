@@ -17,6 +17,11 @@ h2 {
     padding: 20px;
 }
 
+hr {
+    width: 100%;
+    border: #ccc solid 1px;
+    margin-top: 0px;
+}
 
 
 
@@ -96,7 +101,9 @@ footer {
     padding-bottom: 10px;
 }
 
-
+#profile-info {
+    margin-top: 28px;
+}
 
 
 
@@ -168,6 +175,7 @@ header.col-12 {
 
 #social-media-header {
     margin-left: 18px;
+    margin-top: 8px;
 }
 
 .button-row {
