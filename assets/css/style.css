@@ -20,7 +20,6 @@ h2 {
 
 
 
-
 /*   NAVBAR   */
 
 .full-length {
@@ -162,6 +161,28 @@ footer {
 
 
 /*   CONTACT FORM   */
+
+header.col-12 {
+    margin-bottom: 50px;
+}
+
+#social-media-header {
+    margin-left: 18px;
+}
+
+.button-row {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: start;
+}
+
+.btn-info {
+    margin: 10px 10px 10px 0px;
+}
+
+.button-row a {
+    color: #fff;
+}
 
 .btn {
     background-color: #4aaaa5;
