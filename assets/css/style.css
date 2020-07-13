@@ -48,7 +48,7 @@ nav {
 }
 
 nav li {
-    margin: 8px;
+    padding: 8px;
     border-right: #ccc solid 1px;
 }
 
@@ -60,7 +60,10 @@ a {
     color: #777777
 }
 
+.active {
+    border-bottom: #4aaaa5 solid 2px;
 
+}
 
 
 
