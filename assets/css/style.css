@@ -137,10 +137,6 @@ footer {
     margin: 0px;
 }
 
-#portfolio-deck {
-    column-count: 2;
-}
-
 #p1 {
     background-image: url('../images/SDNJ.png');
 }
@@ -233,10 +229,6 @@ header.col-12 {
 
     nav {
         margin: 0 auto;
-    }
-
-    #portfolio-deck {
-        column-count: 1;
     }
 
     .card {
