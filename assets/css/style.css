@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/strange_bullseyes/strange_bullseyes.png);
+    background-image: url(../images/low_contrast_linen/low_contrast_linen.png);
     margin: auto 0;
     color: #777;
 }
@@ -12,9 +12,11 @@ h2 {
 }
 
 .main {
-    margin: 15px;
-    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #ddd;
     padding: 20px;
+    max-width: 1000px;
 }
 
 hr {
@@ -31,14 +33,14 @@ p a {
 /*   NAVBAR   */
 
 .full-length {
-    background-color: #fff;
+    background-color: #ddd;
     padding: 0px;
     border-bottom: #ccc solid 2px;
 }
 
 nav {
     padding: 0px !important;
-    background-color: #fff;
+    background-color: #ddd;
 
 }
 
