@@ -174,10 +174,19 @@ header.col-12 {
 }
 
 .btn {
-    background-color: #4aaaa5;
-    border-radius: 0%;
+    background-color: transparent;
+    border-radius: 15px;
     color: #fff;
     padding: 6px 20px 6px 20px;
+}
+
+button {
+    height: 150px;
+}
+
+button img {
+    width: 100px;
+    height: 100px;
 }
 
 .form-item {
